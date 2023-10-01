@@ -1,15 +1,19 @@
 import React from 'react';
 import './App.css';
-import Flashcardg from './components/Flashcardg'
+import Flashcards from './components/Flashcards';
 
 
 const App = () => {
 
   return (
     <div className="App">
-      <h1>The Spanish Master!</h1>
-      <h2>Let's learn popular spanish lingo! </h2>
-      <Flashcardg />
+      <div className='beg'>
+      <h1>Welcome to The Spanish Helper!</h1>
+      <h2>Let's learn random spanish lingo! </h2>
+      <h2>Number of cards: 14 </h2>
+      </div>
+      <Flashcards />
+
     </div>
   )
 }

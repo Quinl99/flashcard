@@ -1,14 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './Flashcard.css'; 
 
-const Flashcard = ({ spanish }) => {
+
+const Flashcard = ({ spanishText, englishText, color }) => {
+    const [isFlipped, setIsFlipped] = useState(false);
+  
+    const handleClick = () => {
+      setIsFlipped((prevIsFlipped) => !prevIsFlipped);
+    };
+  
+    const content = isFlipped ? englishText : spanishText;
+    const cardStyle = {
+        backgroundColor: color,
+        };
   return (
-    <div className="card">
-    <div className="card-content">
-      <span>{spanish}</span>
-      
+    <div className={`flashcard ${isFlipped ? 'flipped' : ''}`} style={cardStyle} onClick={handleClick}>
+      <div className="flashcard-content">
+        <span>{content}</span>
+      </div>
     </div>
-  </div>
   );
 };
+
+
+
+
 
 export default Flashcard;

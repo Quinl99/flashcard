@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+.flashcard {
+  border: 1px solid #646464;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+}
+
+.beg {
+  margin-bottom: 65px; /*margin-bottom to move the div up */
+}
+

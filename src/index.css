@@ -4,9 +4,13 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh; 
-}
+    background-image: url('images/beach-1236581_1280.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif; 
 
-/* src/components/Card.css */
+ 
+}
 .card {
   border: 1px solid #ccc;
   padding: 20px;
@@ -17,3 +21,4 @@ body {
 .card-content {
   font-size: 20px;
 }
+
