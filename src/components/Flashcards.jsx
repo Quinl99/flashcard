@@ -102,7 +102,7 @@ const FlashcardApp = () => {
           &larr; Previous
         </button>
         <button className="next-button" onClick={handleCheckAnswer}>
-          Check Answer
+          Submit
         </button>
         <button className="next-button" onClick={handleNextCard}>
           Next &rarr;

@@ -1,40 +1,39 @@
-# React + Vite
-# Web Development Project 2 - *Flashcard*
+# Web Development Project 3 - *Flashcard*
 
 Submitted by: **Quintavias Lesure**
 
-This web app: **Created flashcards with spanish and english sentences basically converting spanish to english.**
+This web app: **Spanish to english flippable flashcards. Users are able to guess translation spanish**
 
-Time spent: **16** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [X] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [X] **A list of card pairs is created**
-- [X] **Clicking on the card shows the corresponding component of the information pair**
-- [X] **Clicking the next button displays a random new card**
+- [X] **The user can enter their guess in a box before seeing the flipside of the card**
+- [X] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [X] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [X] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [X] Cards have different visual styles such as color based on their category
-  - [X] *visual style implemented*
+- [ ] A shuffle button is used to randomize the order of the cards
+- [X] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [X] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
-* [Added a transformation to rotate the cards and flipped the english sentences to be able to be seen correctly.] List anything else that you added to improve the site's functionality!
+* [Added A correct and incorrect feedback function that only displays when the user has input their answer.] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/mfjUaO0.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/hbOWHa7.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...   ScreentoGif
+GIF created with ... ScreenToGif  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -43,7 +42,8 @@ GIF created with ...   ScreentoGif
 ## Notes
 
 Describe any challenges encountered while building the app.
-Trying to figure out how to make sure the english and spanish sentences were not flips or mirrors when I did the transform.
+Making the feedback correct and incorrect not appear until user input the answer and clicks submit
+
 ## License
 
     Copyright [yyyy] [name of copyright owner]
