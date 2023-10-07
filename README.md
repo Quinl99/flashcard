@@ -4,7 +4,7 @@ Submitted by: **Quintavias Lesure**
 
 This web app: **Spanish to english flippable flashcards. Users are able to guess translation spanish**
 
-Time spent: **5** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
