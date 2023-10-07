@@ -24,15 +24,33 @@
 
 .next-button {
     background-color: lightblue;
-    color: white;
+    color: black;
     font-size: 1.2em;
-    padding: 20px 35px; 
+    padding: 10px 25px; 
     border: none;
     cursor: pointer;
-    border-radius: 15px;
+    font-weight: 600;
   }
   
   .next-button:hover {
     background-color: rgb(144, 144, 179); /*Change color on hover*/
   }
  
+  .feedback {
+    border: 1px solid #ccc; /*Add a border */
+    background-color: #ccc;
+    padding: 10px; 
+    margin: 20px;
+    width: 200px; 
+    font-weight: 600;
+  }
+  
+.rie{
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.navigation-buttons{
+  font-weight: 600;
+}

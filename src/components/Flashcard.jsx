@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Flashcard.css'; 
 
 
 const Flashcard = ({ spanishText, englishText, color }) => {
     const [isFlipped, setIsFlipped] = useState(false);
   
+    useEffect(() => {
+      setIsFlipped(false);  
+    }, [spanishText, englishText]);
+
     const handleClick = () => {
       setIsFlipped((prevIsFlipped) => !prevIsFlipped);
     };
